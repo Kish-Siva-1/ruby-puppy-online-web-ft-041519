@@ -16,8 +16,8 @@ class Dog
   end
  
   def self.all
-    puts @@all.map{ |dog| dog.name } 
     binding.pry
+    puts @@all.map{ |dog| dog.name } 
   end
   
 end 
